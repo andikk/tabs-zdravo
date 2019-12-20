@@ -466,6 +466,11 @@ button {
     color: #9D9D9D; }
   .form__element--country {
     padding-bottom: 7px; }
+  .form__element--select {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    padding-bottom: 7px; }
 
 .form__element-wrapper {
   position: relative;
