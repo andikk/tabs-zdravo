@@ -1,0 +1,42 @@
+.button {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  border: none;
+  border-radius: 24px;
+  color: #fff;
+  background-color: #FF970C;
+  cursor: pointer;
+  user-select: none;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  transition: all 0.7s;
+
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    //opacity: 0.7;
+  }
+
+  &:focus {
+    //background-color: #eacd28;
+  }
+}
+
+@media (min-width: 768px) {
+  .button {
+
+  }
+}
+
+@media (min-width: 992px) {
+  .button {
+
+  }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Тест</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <main class="container">
+    <div class="tabs">
+      <ul class="tabs__list">
+        <li class="tabs__item js-active js-tab-trigger" data-tab="1">Поиск отеля / санатория</li>
+        <li class="tabs__item js-tab-trigger" data-tab="2">Туры с авиаперелетом</li>
+        <li class="tabs__item js-tab-trigger" data-tab="3">Авиабилеты</li>
+        <li class="tabs__item js-tab-trigger" data-tab="4">ЖД билеты</li>
+        <li class="tabs__item js-tab-trigger" data-tab="5">Трансфер</li>
+      </ul>
+
+      <div class="tabs__content js-tab-content js-active" data-tab="1">
+        <form class="form">
+          <ul class="form__list">
+            <li class="form__element-wrapper form__element-wrapper--country">
+              <input class="form__element form__element--country" type="text" name="country" placeholder="Страна, отель или профиль лечения ">
+            </li>
+
+            <li class="form__element-wrapper">
+              <label class="form__label" for="arrival">Заезд</label>
+              <input class="form__element" type="date" name="arrival" placeholder="20 сентября">
+            </li>
+
+            <li class="form__element-wrapper">
+              <label class="form__label" for="arrival">Выезд</label>
+              <input class="form__element" type="date" name="arrival" placeholder="27 сентября">
+            </li>
+
+            <li class="form__element-wrapper">
+              <select class="form__element">
+                <option>2 гостя 1 номер</option>
+                <option>3 гостя 1 номер</option>
+              </select>
+            </li>
+
+            <li>
+              <button class="button" type="submit">Найти</button>
+            </li>
+        </form>
+      </div>
+
+      <div class="tabs__content js-tab-content" data-tab="2">
+        Содержимое второй вкладки
+      </div>
+
+      <div class="tabs__content js-tab-content" data-tab="3">
+        Содержимое третьей вкладки
+      </div>
+
+      <div class="tabs__content js-tab-content" data-tab="4">
+        Содержимое четвёртой вкладки
+      </div>
+
+      <div class="tabs__content js-tab-content" data-tab="5">
+        Содержимое пятой вкладки
+      </div>
+
+    </div>
+  </main>
+
+
+  <script src="js/module/jquery-3.4.1.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
